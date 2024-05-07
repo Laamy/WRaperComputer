@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WRaperComputer", "WRaperCPU\WRaperComputer.csproj", "{59B7369E-390F-46E9-A74F-8039682A08D3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OLD", "OLD", "{A481BA68-4143-4F45-B625-7CD034F0E40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WRaperComputer", "WRaperComputer\WRaperComputer.csproj", "{B35352DB-9C6F-493C-AC1C-F0890EC4DA7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{59B7369E-390F-46E9-A74F-8039682A08D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B7369E-390F-46E9-A74F-8039682A08D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B7369E-390F-46E9-A74F-8039682A08D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35352DB-9C6F-493C-AC1C-F0890EC4DA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35352DB-9C6F-493C-AC1C-F0890EC4DA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35352DB-9C6F-493C-AC1C-F0890EC4DA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35352DB-9C6F-493C-AC1C-F0890EC4DA7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59B7369E-390F-46E9-A74F-8039682A08D3} = {A481BA68-4143-4F45-B625-7CD034F0E40A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F038F7C-1577-4C06-82AE-45BCA76EAF21}

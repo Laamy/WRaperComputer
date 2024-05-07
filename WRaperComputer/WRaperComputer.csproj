@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59B7369E-390F-46E9-A74F-8039682A08D3}</ProjectGuid>
+    <ProjectGuid>{B35352DB-9C6F-493C-AC1C-F0890EC4DA7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WRaperCPU</RootNamespace>
-    <AssemblyName>WRaperCPU</AssemblyName>
+    <RootNamespace>WRaperComputer</RootNamespace>
+    <AssemblyName>WRaperComputer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Hardware\CPU.cs" />
